@@ -137,12 +137,15 @@ if (mysqli_num_rows($result) > 0) {
               </div>
               <div class="col-md-4">
                 <div class="form-label-group">
-                  <select name="presensi" id="presensi" class="form-control" autofocus="autofocus">
-                      <option value="Hadir"> Hadir </option>
-                      <option value="Sakit"> Sakit </option>
-                      <option value="Izin"> Izin </option>
-                      <option value="Alpa"> Alpa </option>
-                  </select>
+                <select class="form-select" aria-label="Default select example" name="presensi"
+                                    required="required">
+                                    <option selected>Select Role</option>
+                                    <option value="hadir">hadir</option>
+                                    <option value="alpa">alpa</option>
+                                    <option value="izin">izin</option>
+                               
+
+                                </select>
                 </div>
               </div>
             </div>
@@ -158,6 +161,7 @@ if (mysqli_num_rows($result) > 0) {
 
 
           <a class="btn btn-secondary btn-block" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/Dosen.php">Cancel</a></p>
+          <a class="btn btn-secondary btn-block" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/tables_presensi.php">Lihat Presensi</a></p> 
         </form>
         <div class="text-center">
           <br>Copyright © Program Studi Teknik Informatika - <?=date('Y');?><br>

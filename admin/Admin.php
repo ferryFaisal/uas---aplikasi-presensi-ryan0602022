@@ -136,6 +136,11 @@ if ($cek2 > 0) {
                     <i class="fas fa-fw fa-table"></i>
                     <span>Table Users</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="tables_presensi.php">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Table Presensi</span></a>
+            </li>
     </ul>
     
 
