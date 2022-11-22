@@ -157,7 +157,7 @@ if (mysqli_num_rows($result) > 0) {
 
 
 
-          <a class="btn btn-secondary btn-block" href="index.php">Cancel</a></p>
+          <a class="btn btn-secondary btn-block" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/Dosen.php">Cancel</a></p>
         </form>
         <div class="text-center">
           <br>Copyright © Program Studi Teknik Informatika - <?=date('Y');?><br>
