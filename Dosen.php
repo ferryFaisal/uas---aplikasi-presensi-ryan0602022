@@ -7,7 +7,7 @@ if (isset($_SESSION['login'])) { //jika sudah login
     // echo "<h2>Halaman ini hanya bisa diakses jika Anda sudah login</h2>";
     // echo "<h2>Klik <a href='session3.php'>di sini (session03.php)</a> untuk LOGOUT</h2>";
 } else {
-    die("Anda belum login! Anda tidak berhak masuk ke halaman ini.Silahkan login <a href='\WebProgramming/uas---aplikasi-presensi-JOELLYZX/index.php'>di sini</a>");
+    die("Anda belum login! Anda tidak berhak masuk ke halaman ini.Silahkan login <a href='\WebProgramming/uas---aplikasi-presensi-Agapitusryan permana/index.php'>di sini</a>");
 
 }
 
@@ -88,9 +88,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="form-label-group">
                   <select name="makul" id="makul" class="form-control" autofocus="autofocus">
                     <option value=""> -- Pilih Mata Kuliah  -- </option>
+                    <option value="SoftDev"> Jaringan Komputer Dasar </option>
+                    <option value="SoftDev"> Rekayasa Perangkat Lunak </option>
                     <option value="WebProg"> Pemrograman Web </option>
                     <option value="WebProgLab"> Praktik Pemrograman Web </option>
-                    <option value="SoftDev"> Rekayasa Perangkat Lunak </option>
                   </select>
                 </div>
               </div>

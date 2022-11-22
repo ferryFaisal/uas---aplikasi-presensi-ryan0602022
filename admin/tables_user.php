@@ -133,7 +133,7 @@ if ($cek2 > 0) {
                     <li class="breadcrumb-item active">Tables</li>
                 </ol>
                 <ol>
-                    <a href="\WebProgramming/uas---aplikasi-presensi-Agapitusryanpermana/register.php"><button type="button" class="btn btn-primary">Add
+                    <a href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/register.php"><button type="button" class="btn btn-primary">Add
                             User</button></a>
                 </ol>
 
@@ -238,7 +238,7 @@ mysqli_close($conn);
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="\WebProgramming/uas---aplikasi-presensi-AbangMuhammadFajar/index.php">Logout</a>
+                        <a class="btn btn-primary" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/index.php">Logout</a>
                     </div>
                 </div>
             </div>

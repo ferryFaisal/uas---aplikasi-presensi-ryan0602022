@@ -87,10 +87,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <div class="col-md-4">
                 <div class="form-label-group">
                   <select name="makul" id="makul" class="form-control" autofocus="autofocus">
-                    <option value=""> -- Pilih Mata Kuliah  -- </option>
+                  <option value=""> -- Pilih Mata Kuliah  -- </option>
+                    <option value="SoftDev"> Jaringan Komputer Dasar </option>
+                    <option value="SoftDev"> Rekayasa Perangkat Lunak </option>
                     <option value="WebProg"> Pemrograman Web </option>
                     <option value="WebProgLab"> Praktik Pemrograman Web </option>
-                    <option value="SoftDev"> Rekayasa Perangkat Lunak </option>
                   </select>
                 </div>
               </div>

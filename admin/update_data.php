@@ -14,7 +14,7 @@ if (mysqli_query($conn, $sql1)) {
         header('Location: tables_user.php');
         ob_end_flush();
     } else if (isset($_SESSION['login']) && $_SESSION['role'] == "Dosen") {
-        header('Location: \WebProgramming/uas---aplikasi-presensi-AbangMuhammadFajar/Dosen.php');
+        header('Location: \WebProgramming/uas---aplikasi-presensi-Agapitusryanpermana/Dosen.php');
         ob_end_flush();
     }
 

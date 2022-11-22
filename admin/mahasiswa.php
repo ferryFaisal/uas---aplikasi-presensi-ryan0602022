@@ -218,8 +218,8 @@ $result1 = mysqli_query($conn, $sql2);
                 <thead>
                   <tr>
                     <th>No</th>
-                    <th>NIM</th>
                     <th>Nama</th>
+                    <th>NIM</th>
                     <th>Kelas</th>
                     <th>Action</th>
                   </tr>
@@ -294,7 +294,7 @@ $result1 = mysqli_query($conn, $sql2);
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="\uas---aplikasi-presensi-AbangMuhammadFajar/index.php">Logout</a>
+          <a class="btn btn-primary" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/index.php">Logout</a>
         </div>
       </div>
     </div>

@@ -270,8 +270,8 @@ if ($cek2 > 0) {
                     ?>
                      <tr>
                         <td><?php echo $no; ?></td>
-                        <td><?php echo $row['nama']; ?></td>
                         <td><?php echo $row['nim']; ?></td>
+                        <td><?php echo $row['nama']; ?></td>
                         <td><?php echo $row['kelas'] ?></td>
                         <td>
                           <a href="admin_mahasiswa_edit.php?id=<?php echo $row['nim']; ?>">Edit</a> |
@@ -326,7 +326,7 @@ if ($cek2 > 0) {
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="\WebProgramming/uas---aplikasi-presensi-agapitusryanpermana/index.php">Logout</a>
+          <a class="btn btn-primary" href="\adminpanel-presensi/uas---aplikasi-presensi-ryan0602022/index.php">Logout</a>
         </div>
       </div>
     </div>
