@@ -59,7 +59,7 @@ if (isset($_GET['id'])) {
 
     <div class="container">
         <div class="card card-register mx-auto mt-5">
-            <div class="card-header">Edit Produk</div>
+            <div class="card-header">Edit data mahasiswa</div>
             <div class="card-body">
                 <form method="POST" action="action_edit.php" enctype="multipart/form-data">
                 <section class="base">

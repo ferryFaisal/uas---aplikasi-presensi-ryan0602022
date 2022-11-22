@@ -20,7 +20,7 @@ $result2 = mysqli_query($conn, $sql2);
 if (isset($_GET['id'])) {
   $id = ($_GET["id"]);
 
-  $query = "SELECT * FROM mahasiswa WHERE nim='$id'";
+  $query = "SELECT * FROM presensi WHERE nim='$id'";
   $result = mysqli_query($conn, $query);
   if (!$result) {
     die("Query Error: " . mysqli_errno($conn) .
@@ -28,10 +28,10 @@ if (isset($_GET['id'])) {
   }
   $data = mysqli_fetch_assoc($result);
   if (!count($data)) {
-    echo "<script>alert('Data tidak ditemukan pada database');window.location='mahasiswa.php';</script>";
+    echo "<script>alert('Data tidak ditemukan pada database');window.location='tables_presensi.php';</script>";
   }
 } else {
-  echo "<script>alert('Masukkan data id.');window.location='mahasiswa.php';</script>";
+  echo "<script>alert('Masukkan data id.');window.location='tables_presensi.php';</script>";
 }
 ?>
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ if (isset($_GET['id'])) {
 
     <div class="container">
         <div class="card card-register mx-auto mt-5">
-            <div class="card-header">Edit Produk</div>
+            <div class="card-header">Edit data </div>
             <div class="card-body">
                 <form method="POST" action="action_edit.php" enctype="multipart/form-data">
                 <section class="base">
@@ -87,15 +87,12 @@ if (isset($_GET['id'])) {
                     <div class="form-group">
                         <div class="form-row">
                             <div class="col-md-6">
-                                <label>Status Kehadiran Mahasiswa</label><br>
+                            <label>Status Kehadiran Mahasiswa</label><br>
                                 <select class="form-select" aria-label="Default select example" name="presensi"
                                     required="required">
-                                    <option selected><?php echo $data['presensi']; ?></option>
-                                   
-                                    <option value="hadir">hadir</option>
-                                    <option value="sakit">sakit</option>
-                                    <option value="izin">izin</option>
-                                    <option value="alpa">alpa</option>
+                                    <option selected>--Pilih Status--</option>
+                                    <option value="Hadir">Hadir</option>
+                                    <option value="Alpa">Alpa</option>
                                 </select>
                             </div>
                         </div>
@@ -106,8 +103,15 @@ if (isset($_GET['id'])) {
 
                         <button type="submit">Update</button>
                     </div>
+                    <?php
+ {
+
+    include 'action_edit_presensi.php';
+}
+?>
                     </section>
                 </form>
+
 
             </div>
         </div>

@@ -209,8 +209,7 @@ if (mysqli_num_rows($result) > 0) {
                                         <td><?php echo $row['nama'] ?></td>
                                         <td><?php echo $row['status_presensi'] ?></td>
                                         <td>
-                                            <a href='form_update_presensi.php?email=<?php echo $row['email'] ?>'><i
-                                                    class="bi bi-pen"></i></a>
+                                        <a href="form_update_presensi.php?id=<?php echo $row['nim']; ?>">Edit</a>
                 
                                         </td>
 
