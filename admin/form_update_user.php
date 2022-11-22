@@ -191,24 +191,23 @@ require 'connect_db.php';
                 </a>
             </li>
 
-
-            <li class="nav-item active">
-                <a class="nav-link" href="tables.php">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Table Users</span></a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="tables-product.php">
+      <li class="nav-item active">
+        <a class="nav-link" href="mahasiswa.php">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Data Mahasiswa</span></a>
+      </li>
+      <li class="nav-item">
+                <a class="nav-link" href="tables_user.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Table Products</span></a>
+                    <span>Tabel User</span></a>
             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="tables-costumers.php">
+            <li class="nav-item active">
+                <a class="nav-link" href="tables_presensi.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables Customers</span></a>
+                    <span>Table Presensi</span></a>
             </li>
-
-        </ul>
+</ul>
 
         <div id="content-wrapper">
 

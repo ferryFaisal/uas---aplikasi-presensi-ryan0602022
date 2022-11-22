@@ -119,6 +119,11 @@ $result1 = mysqli_query($conn, $sql2);
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tabel User</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="tables_presensi.php">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Table Presensi</span></a>
+            </li>
     </ul>
 
     <div id="content-wrapper">

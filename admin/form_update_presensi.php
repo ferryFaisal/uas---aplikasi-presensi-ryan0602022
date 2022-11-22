@@ -103,12 +103,7 @@ if (isset($_GET['id'])) {
 
                         <button type="submit">Update</button>
                     </div>
-                    <?php
- {
-
-    include 'action_edit_presensi.php';
-}
-?>
+ 
                     </section>
                 </form>
 
